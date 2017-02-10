@@ -1,0 +1,8 @@
+{
+    "name": "wakes/uiplay",
+    "type": "project",
+    "require": {
+        "components/jquery": "^3.1"
+    },
+    "minimum-stability": "dev"
+}
