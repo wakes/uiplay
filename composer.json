@@ -3,7 +3,8 @@
     "type": "project",
     "require": {
         "components/jquery": "^3.1",
-        "newerton/jquery-mousewheel": "dev-master"
+        "newerton/jquery-mousewheel": "dev-master",
+        "components/normalize.css": "^3.0"
     },
     "minimum-stability": "dev"
 }
