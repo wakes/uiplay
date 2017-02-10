@@ -2,7 +2,8 @@
     "name": "wakes/uiplay",
     "type": "project",
     "require": {
-        "components/jquery": "^3.1"
+        "components/jquery": "^3.1",
+        "newerton/jquery-mousewheel": "dev-master"
     },
     "minimum-stability": "dev"
 }

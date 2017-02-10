@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "943d447361aca1e9d6615c10170a32f8",
+    "content-hash": "912786160baee456659607f9fcf6c812",
     "packages": [
         {
             "name": "components/jquery",
@@ -45,12 +45,50 @@
             "description": "jQuery JavaScript Library",
             "homepage": "http://jquery.com",
             "time": "2016-09-23T06:06:29+00:00"
+        },
+        {
+            "name": "newerton/jquery-mousewheel",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/newerton/jquery-mousewheel.git",
+                "reference": "a0bc82aca013487261633a8c608c36a1a6a41beb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/newerton/jquery-mousewheel/zipball/a0bc82aca013487261633a8c608c36a1a6a41beb",
+                "reference": "a0bc82aca013487261633a8c608c36a1a6a41beb",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Newerton Vargas de Araujo",
+                    "homepage": "http://newerton.com.br",
+                    "role": "Developer / Freelancer"
+                }
+            ],
+            "description": "A jQuery plugin that adds cross-browser mouse wheel support.",
+            "homepage": "https://github.com/brandonaaron/jquery-mousewheel",
+            "keywords": [
+                "jquery",
+                "mouse",
+                "mousewheel",
+                "wheel"
+            ],
+            "time": "2015-05-07 14:16:29"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "newerton/jquery-mousewheel": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
